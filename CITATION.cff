@@ -4,7 +4,26 @@ authors:
 - family-names: "Cherrington"
   given-names: "Emil"
   orcid: "https://orcid.org/0000-0003-0524-4744"
-title: "PACE OCI data conversion R package"
-version: 1.0.0.1
+- family-names: "Hernandez Sandoval"
+  given-names: "Betzy"
+  orcid: "https://orcid.org/0000-0002-9669-3504"
+- family-names: "Africa"
+  given-names: "Flores-Anderson"
+  orcid: "https://orcid.org/0009-0008-2509-6439"
+- family-names: "Anderson"
+  given-names: "Eric"
+  orcid: "https://orcid.org/0000-0001-5056-4347"
+- family-names: "Herndon"
+  given-names: "Kelsey"
+  orcid: "https://orcid.org/0000-0002-4771-6861"
+- family-names: "Limaye"
+  given-names: "Ashutosh"
+ - family-names: "Griffin"
+  given-names: "Robert"
+  orcid: "https://orcid.org/0000-0001-5665-700X"
+- family-names: "Irwin"
+  given-names: "Daniel"
+title: "Forest cover change code and tools"
+version: 1.0.0.0
 doi: 10.5281/zenodo.15870562
-date-released: 2025-07-12
+date-released: 2025-07-20
