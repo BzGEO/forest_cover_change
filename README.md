@@ -31,9 +31,19 @@ To add the code repository 💾 directly to your GEE account, use the following 
     
   * Mesoamerica forest cover change [app](https://bzgeo.users.earthengine.app/view/mes-fcover-landsat) ➡️ *based on 100m Landsat data*
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_1.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_2.png)
 
-2. x
+2. You can access the **large** data cubes (image stacks) of Landsat data that were generated via the scripts in the **00_pkg** folder of the [GEE repository](https://bit.ly/gee_forest_cover).
+
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_bz.png)
+
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_mes.png)
+
+3. See Kennedy et al.'s papers for additional details regarding the LandTrendr methods:
+
+   * Kennedy et al. (2010): https://www.sciencedirect.com/science/article/abs/pii/S0034425710002245
+
+   * Kennedy et al. (2018): https://www.mdpi.com/2072-4292/10/5/691
 
 ## Citation
 
