@@ -18,13 +18,13 @@ authors:
   orcid: "https://orcid.org/0000-0002-4771-6861"
 - family-names: "Limaye"
   given-names: "Ashutosh"
-  orcid: ""
+  orcid: "https://orcid.org/"
  - family-names: "Griffin"
   given-names: "Robert"
   orcid: "https://orcid.org/0000-0001-5665-700X"
 - family-names: "Irwin"
   given-names: "Daniel"
-  orcid: ""
+  orcid: "https://orcid.org/"
 title: "Forest cover change code and tools"
 version: 1.0.0.0
 doi: 10.5281/zenodo.15870562
