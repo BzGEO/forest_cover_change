@@ -1,6 +1,6 @@
 # Forest cover change assessment for Belize and Mesoamerica
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16232223.svg)](https://doi.org/10.5281/zenodo.16232223)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/forest_cover_change?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/forest_cover_change)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.forest_cover_change)
 
@@ -49,9 +49,9 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 If this toolkit is used in publications, presentations, or other venues, please cite 📝 the following:
 
+Cherrington, E. A., Hernandez Sandoval, B. E., Flores-Anderson, A. I., Anderson, E. R., Herndon, K. E., Limaye, A. S., Griffin, R. E., & Irwin, D. E. (2025). Forest cover change code and tools (Version 1.0.0.0) [Computer software]. https://doi.org/10.5281/zenodo.16232223
 
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15873995.svg)](https://doi.org/10.5281/zenodo.15873995)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16232223.svg)](https://doi.org/10.5281/zenodo.16232223)
 
 ## Contact information
 
