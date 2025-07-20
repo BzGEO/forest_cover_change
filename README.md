@@ -5,7 +5,7 @@
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.forest_cover_change)
 
 ## Summary
-This is a collection of Google Earth Engine (GEE) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work is the nation of Belize, and Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025.
+This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work is the nation of Belize, and Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025, focusing on the dry season, which runs from about January to May of each year.
 
 ## Functions
 
@@ -44,6 +44,11 @@ To add the code repository 💾 directly to your GEE account, use the following 
    * Kennedy et al. (2010): https://www.sciencedirect.com/science/article/abs/pii/S0034425710002245
 
    * Kennedy et al. (2018): https://www.mdpi.com/2072-4292/10/5/691
+
+4. The [eMapR Lab](https://emapr.ceoas.oregonstate.edu/) at [Oregon State University](https://oregonstate.edu/) also has great resources on LandTrendr that we highly recommend: https://emapr.github.io/LT-GEE/landtrendr.html.
+
+# Context
+These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America. The scripts were recently updated to the 2025 dry season.
 
 ## Citation
 
