@@ -47,7 +47,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 4. The [eMapR Lab](https://emapr.ceoas.oregonstate.edu/) at [Oregon State University](https://oregonstate.edu/) also has great resources on LandTrendr that we highly recommend: https://emapr.github.io/LT-GEE/landtrendr.html.
 
-# Context
+## Context
 These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America. The scripts were recently updated to the 2025 dry season.
 
 ## Citation
