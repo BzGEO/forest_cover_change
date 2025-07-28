@@ -33,7 +33,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_2.png)
 
-2. There is *also* an app for viewing Landsat spectral signatures based on the 42 image mosaics: https://servirbz.users.earthengine.app/view/mes-landsat-multispectral-viewer-v1.
+2. There is *also* an app for viewing Landsat spectral signatures based on the 42 image mosaics: https://bzgeo.users.earthengine.app/view/mes-landsat-multispectral-viewer-v1.
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/multispectral_data_explorer__landsat_mes.PNG)
 
