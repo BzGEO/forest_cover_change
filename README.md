@@ -16,7 +16,7 @@ As displayed below, the code repository is divided into four sections. There are
 3. Generating land cover change maps based on LandTrendr, and
 4. Generating user interfaces (UIs) for producing GEE apps for visualizing the mosaics, SMA outputs, and forest cover data.
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/gee_repo_structure2.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/gee_repo_structure3.png)
 
 ## 📢 Add this repo to Google Earth Engine 📢
 To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_forest_cover.
