@@ -35,9 +35,9 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
    * Ucayali, Peru forest cover change [app](https://bit.ly/pe_ucayali) ➡️ *based on 100m Landsat data*
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_pe_2.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_pe_3.png)
 
-2. There is *also* a [Mesoamerica] app for viewing Landsat spectral signatures based on the 42 image mosaics: https://geo-ai.net/multispectral_landsat.
+2. There is *also* a Mesoamerica-focused app for viewing Landsat spectral signatures based on the 42 annual image mosaics: https://geo-ai.net/multispectral_landsat.
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_3.png)
 
