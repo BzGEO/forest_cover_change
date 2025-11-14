@@ -1,11 +1,11 @@
-# Forest cover change assessment for Belize and Mesoamerica
+# Forest cover change assessment for various locations in Latin America & the Caribbean
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16232223.svg)](https://doi.org/10.5281/zenodo.16232223)
 [![Update](https://img.shields.io/github/last-commit/bzgeo/forest_cover_change?label=repo%20last%20updated&style=flat-square)](https://github.com/BzGEO/forest_cover_change)
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.forest_cover_change)
 
 ## Summary
-This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work is the nation of Belize, and Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025, focusing on the dry season, which runs from about January to May of each year.
+This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work includes: (i) the Department of Ucayali in Peru, (ii) the nation of Belize, and (iii) the region of Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025, focusing on the dry season, which for Belize and Mesoamerica runs from about January to May of each year, and for Ucayali runs from May to October.
 
 ## Functions
 
@@ -16,14 +16,14 @@ As displayed below, the code repository is divided into four sections. There are
 3. Generating land cover change maps based on LandTrendr, and
 4. Generating user interfaces (UIs) for producing GEE apps for visualizing the mosaics, SMA outputs, and forest cover data.
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/gee_repo_structure.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/gee_repo_structure2.png)
 
 ## 📢 Add this repo to Google Earth Engine 📢
 To add the code repository 💾 directly to your GEE account, use the following *bit.ly* 🔗: https://bit.ly/gee_forest_cover.
 
 ## Additional information
 
-1. There are two GEE apps for viewing the analyses' outputs:
+1. There are three GEE apps for viewing the analyses' outputs:
    
   * Belize forest cover change [app](https://bzgeo.users.earthengine.app/view/bz-forest-cover-landsat) ➡️ *based on 30m Landsat data*
 
@@ -33,7 +33,11 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_2.png)
 
-2. There is *also* an app for viewing Landsat spectral signatures based on the 42 image mosaics: https://geo-ai.net/multispectral_landsat.
+   * Ucayali, Peru forest cover change [app](https://bit.ly/pe_ucayali) ➡️ *based on 100m Landsat data*
+
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_pe_2.png)
+
+2. There is *also* a [Mesoamerica] app for viewing Landsat spectral signatures based on the 42 image mosaics: https://geo-ai.net/multispectral_landsat.
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_3.png)
 
@@ -52,7 +56,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 5. The [eMapR Lab](https://emapr.ceoas.oregonstate.edu/) at [Oregon State University](https://oregonstate.edu/) also has great resources on LandTrendr that we highly recommend: https://emapr.github.io/LT-GEE/landtrendr.html.
 
 ## Context
-These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America. The scripts were recently updated to the 2025 dry season.
+These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America and Amazonia. The scripts were recently updated to the 2025 dry season.
 
 ## Citation
 
