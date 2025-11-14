@@ -7,6 +7,9 @@
 ## Summary
 This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work includes: (i) the Department of Ucayali in Peru, (ii) the nation of Belize, and (iii) the region of Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025, focusing on the dry season, which for Belize and Mesoamerica runs from about January to May of each year, and for Ucayali runs from May to October.
 
+# Methods
+Using Kennedy et al. (2018)'s *LandTrendr* algorithm available via the Google Earth Engine (GEE) computational platform, temporally stabilized Landsat mosaics were generated for the full period of available Landsat-5 to Landsat-9 data (i.e., 1984 to 2025), and using standard parameters for deriving the mosaics. The derived mosaics included the following 6 spectral bands: blue, green, red, near infrared (NIR), shortwave infrared-1 (SWIR1), and shortwave infrared-2 (SWIR2). In addition to the temporally stabilized image mosaics, maps of land cover change were also derived using the Normalized Burn Ratio (NBR) and standard parameters. The maps included bands detailing the years that the disturbances were detected ("year of disturbance," YOD), and the magnitude of the changes in NBR, and the duration of the changes, among other parameters. The 
+
 ## Functions
 
 As displayed below, the code repository is divided into four sections. There are scripts for:
@@ -56,7 +59,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 5. The [eMapR Lab](https://emapr.ceoas.oregonstate.edu/) at [Oregon State University](https://oregonstate.edu/) also has great resources on LandTrendr that we highly recommend: https://emapr.github.io/LT-GEE/landtrendr.html.
 
 ## Context
-These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America and Amazonia. The scripts were recently updated to the 2025 dry season.
+These scripts were originally developed in the 2020-2024 timeframe at the [SERVIR](https://science.nasa.gov/category/missions/servir/) Science Coordination Office at the [NASA Marshall Space Flight Center](https://www.nasa.gov/marshall/) for collaborative work done in Central America and Amazonia. The scripts were recently updated to the 2025 dry season. This work also builds off of the Global Land Cover Change Algorithm Intercomparison effort implemented across the SERVIR network in the 2021-2023 timeframe, and led by Drs. [Africa Flores-Anderson](https://github.com/africaf) of NASA MSFC, and Stephanie Spera and [Yunuen Reygadas Langarica](https://github.com/yreygadas) of the University of Richmond.
 
 ## Citation
 
