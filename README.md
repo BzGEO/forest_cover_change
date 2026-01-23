@@ -26,7 +26,7 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ## Additional information
 
-1. There are three GEE **apps for viewing the analyses' outputs**:
+1. There are three GEE <ins> **apps for viewing the analyses' outputs** </ins>:
    
   * Belize forest cover change [app](https://bzgeo.users.earthengine.app/view/bz-forest-cover-landsat) ➡️ *based on 30m Landsat data*
 
@@ -40,11 +40,11 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_pe_3.png)
 
-2. There is *also* a Mesoamerica-focused **app for viewing Landsat spectral signatures** based on the 42 annual image mosaics: https://geo-ai.net/multispectral_landsat.
+2. There is *also* a Mesoamerica-focused <ins> **app for viewing Landsat spectral signatures** </ins> based on the 42 annual image mosaics: https://geo-ai.net/multispectral_landsat.
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/app_screenshot_mes_3.png)
 
-3. You can access the **large** data cubes (image stacks) of Landsat data that were generated via the scripts in the **00_pkg** folder of the [GEE repository](https://bit.ly/gee_forest_cover).
+3. You can access the **large** <ins> data cubes (image stacks) of Landsat data </ins> that were generated via the scripts in the **00_pkg** folder of the [GEE repository](https://bit.ly/gee_forest_cover).
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_bz.png)
 
