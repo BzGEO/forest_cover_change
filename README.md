@@ -13,11 +13,12 @@ Using Kennedy et al. (2018)'s *LandTrendr* algorithm available via the Google Ea
 ## Functions
 
 As displayed below, the code repository is divided into four sections. There are scripts for:
-
+```
 1. Loading Landsat mosaics and derived products (spectral mixture analysis outputs, and forest cover maps),
 2. Generating dry season Landsat mosaics using Kennedy et al.'s LandTrendr-based temporal stabilization algorithm,
 3. Generating land cover change maps based on LandTrendr, and
 4. Generating user interfaces (UIs) for producing GEE apps for visualizing the mosaics, SMA outputs, and forest cover data.
+```
 
 ![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/gee_repo_structure_2.png)
 
@@ -65,7 +66,7 @@ These scripts were originally developed in the 2020-2024 timeframe at the [SERVI
 
 If this toolkit is used in publications, presentations, or other venues, please cite 📝 the following:
 
-Cherrington, E. A., Hernandez Sandoval, B. E., Flores-Anderson, A. I., Anderson, E. R., Herndon, K. E., Limaye, A. S., Griffin, R. E., & Irwin, D. E. (2025). Forest cover change code and tools (Version 1.0.0.0) [Computer software]. https://doi.org/10.5281/zenodo.16232223
+`Cherrington, E. A., Hernandez Sandoval, B. E., Flores-Anderson, A. I., Anderson, E. R., Herndon, K. E., Limaye, A. S., Griffin, R. E., & Irwin, D. E. (2025). Forest cover change code and tools (Version 1.0.0.0) [Computer software]. https://doi.org/10.5281/zenodo.16232223`
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16232223.svg)](https://doi.org/10.5281/zenodo.16232223)
 
