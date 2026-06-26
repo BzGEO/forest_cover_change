@@ -5,7 +5,7 @@
 ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=bzgeo.forest_cover_change)
 
 ## Summary
-This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work includes: (i) the Department of Ucayali in Peru, (ii) the nation of Belize, and (iii) the region of Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2025, focusing on the dry season, which for Belize and Mesoamerica runs from about January to May of each year, and for Ucayali runs from May to October.
+This is a collection of [Google Earth Engine (GEE)](https://code.earthengine.google.com/) code for forest cover change mapping, based on the LandTrendr algorithm from Kennedy et al. (2010) and Kennedy et al. (2018). The geographic scope of this work includes: (i) the Department of Ucayali in Peru, (ii) the nation of Belize, and (iii) the region of Mesoamerica (i.e., southern Mexico to Panama). The time period for the analyses is 1984 to 2026, focusing on the dry season, which for Belize and Mesoamerica runs from about January to May of each year, and for Ucayali runs from May to October.
 
 # Methods
 Using Kennedy et al. (2018)'s *LandTrendr* algorithm available via the Google Earth Engine (GEE) computational platform, temporally stabilized Landsat mosaics were generated for the entire period of available Landsat-5 to Landsat-9 data (i.e., 1984 to 2025), and using standard parameters for deriving the mosaics. The derived mosaics included the following 6 spectral bands: blue, green, red, near infrared (NIR), shortwave infrared-1 (SWIR1), and shortwave infrared-2 (SWIR2). In addition to the temporally stabilized image mosaics, rasterized maps of land cover change were also derived using the Normalized Burn Ratio (NBR) and standard parameters. The maps included bands detailing the years that the disturbances were detected ("year of disturbance," YOD), and the magnitude of NBR change, and the duration of the changes, among other parameters. Spectral mixture analysis (SMA) was then performed on the 42 individual annual Landsat mosaics, generating 3-band raster composites representing per pixel percentages of photosynthetic vegetation (PV), non-photosynthetic vegetation (NPV), and bare substrate; for the specific spectral endmembers used, see: https://bit.ly/algorithm_sma_gee. Based on the SMA outputs for each year, and mirroring the approach taken by [Asner et al. (2009)](https://doi.org/10.1117/1.3223675), annual maps of forest and non-forest cover were then derived based on the fractions of PV. For the apps shown below, forest cover is estimated using pixels whose PV fractions meet or exceed 70%, but that forest definition can be revisited by adjusting the PV fractions of the SMA outputs.
@@ -47,9 +47,9 @@ To add the code repository 💾 directly to your GEE account, use the following 
 
 3. You can access the **large** <ins> data cubes (image stacks) of Landsat data </ins> that were generated via the scripts in the **00_pkg** folder of the [GEE repository](https://bit.ly/gee_forest_cover).
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_bz.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_bz2.png)
 
-![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_mes.png)
+![](https://github.com/BzGEO/forest_cover_change/blob/main/_graphics/data_cube_mes2.png)
 
 4. See Kennedy et al.'s papers for additional details regarding the LandTrendr methods:
 
